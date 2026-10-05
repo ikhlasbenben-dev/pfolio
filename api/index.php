@@ -2,7 +2,7 @@
 // ---------- DATA ----------
 $siteName   = 'Ikhlas Benjoudare';
 $email      = 'ekhlasbenjoudare97@gmail.com';
-$photo      = 'image/me.jpeg';
+$photo      = '/images/me.jpeg';
 
 $navLinks = [
     '#home'     => 'Accueil',
@@ -16,23 +16,23 @@ $ateliers = [
     [
         'title'     => 'Atelier 1',
         'desc'      => 'Atelier 1 — Document Word',
-        'doc_url'   => 'Atelier 1.pdf',
+        'doc_url'   => '/documents/Atelier 1.pdf',
         'doc_label' => 'Voir Document',
         'repo_url'  => '',
     ],
     [
         'title'     => 'Atelier 2',
         'desc'      => 'Atelier 2',
-        'doc_url'   => '#',
-        'doc_label' => 'Voir Live',
-        'repo_url'  => '#',
+        'doc_url'   => '/documents/Atelier 2.pdf',
+        'doc_label' => 'Voir Document',
+        'repo_url'  => '/repositories/Atelier 2',
     ],
     [
         'title'     => 'Atelier 3',
         'desc'      => 'Atelier 3',
-        'doc_url'   => '#',
-        'doc_label' => 'Voir Live',
-        'repo_url'  => '#',
+        'doc_url'   => '/documents/Atelier 3.pdf',
+        'doc_label' => 'Voir Document',
+        'repo_url'  => '/repositories/Atelier 3',
     ],
     [
         'title'     => 'Atelier 4',
